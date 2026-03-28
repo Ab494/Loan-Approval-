@@ -9,6 +9,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the entire application
 COPY . .
 
+# Train the model during build
+RUN python3 train_model.py
+
 # Expose port 8000
 EXPOSE 8000
 
