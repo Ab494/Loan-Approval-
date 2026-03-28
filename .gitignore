@@ -40,3 +40,4 @@ app/model.pkl
 # OS
 .DS_Store
 Thumbs.db
+.kilo
